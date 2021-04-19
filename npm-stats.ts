@@ -22,9 +22,9 @@ const main = async (): Promise<any> => {
   ): void => {
     rows.push([key, values[index]])
   })
-  writeToPath(path.resolve(__dirname, 'stats.csv'), rows)
+  writeToPath(path.resolve(__dirname, 'npm-stats.csv'), rows)
     .on('error', err => console.error(err))
-    .on('finish', () => console.log('stats.csv created'))
+    .on('finish', () => console.log('npm-stats.csv created'))
 }
   
 main()
