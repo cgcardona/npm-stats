@@ -1,6 +1,6 @@
 # npm-stats
 
-Get stats for an npm lib
+Create a .csv file of daily downloads for an npm lib.
 
 ```ts
 ts-node npm-stats.ts
